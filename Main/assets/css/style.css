@@ -1,12 +1,17 @@
+:root {
+    --lavender: #967bb6;
+    --white: #ffffff;
+}
+
 body {
-    background-color: #d9dcd6;
+    background-color: var(--lavender);
 }
 
 header {
     padding: 20px;
     font-family: Cochin, 'Times New Roman', Arial;
-    background-color: #967bb6;
-    color: #ffffff;
+    background-color: var(--lavender);
+    color: var(--white);
 }
 
 header h1 {
@@ -32,7 +37,7 @@ header nav ul li {
 }
 
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -57,8 +62,8 @@ main section article {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #ffffff;
-    color: #967bb6;
+    background-color: var(--white);
+    color: var(--lavender);
 }
 
 main section article img {
