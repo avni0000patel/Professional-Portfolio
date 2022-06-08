@@ -36,11 +36,40 @@ a {
     text-decoration: none;
 }
 
-.hero {
-    height: 1600px;
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+main {
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("/Users/avnipatel/Desktop/Bootcamp/Challenge02/git-challenge02/Images/myphoto.jpg");
-    background-size: cover;
-    background-position: center;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+main section article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    color: #967bb6;
+}
+
+main section article img {
+    max-height: 200px;
+}
+
+main section article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+main section article p {
+    font-size: 16px;
 }
