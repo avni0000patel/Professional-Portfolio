@@ -35,3 +35,12 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
+.hero {
+    height: 1600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/Users/avnipatel/Desktop/Bootcamp/Challenge02/git-challenge02/Images/myphoto.jpg");
+    background-size: cover;
+    background-position: center;
+}
