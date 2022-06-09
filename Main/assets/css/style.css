@@ -9,7 +9,7 @@ body {
 
 header {
     padding: 20px;
-    font-family: Cochin, 'Times New Roman', Arial;
+    font-family: 'Courier New', Courier, monospace;
     background-color: var(--lavender);
     color: var(--white);
 }
@@ -51,30 +51,81 @@ a {
     margin-left: 25px;
 }
 
-main {
-    width: 100%;
-    display: inline-block;
-    margin-left: 0px;
-}
-
-main section article {
+.about-me {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     background-color: var(--white);
     color: var(--lavender);
 }
 
-main section article img {
+.about-me img {
     max-height: 200px;
 }
 
-main section article h2 {
+.about-me h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-main section article p {
+.about-me p {
     font-size: 16px;
+}
+
+.work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--white);
+    color: var(--lavender);
+}
+
+.work img {
+    max-height: 200px;
+}
+
+.work h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.work p {
+    font-size: 16px;
+}
+
+.contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--white);
+    color: var(--lavender);
+}
+
+.contact-me h2 {
+    display: inline-block;
+    font-size: 36px;
+}
+
+.contact-me nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.contact-me nav ul {
+    list-style-type: none;
+}
+
+.contact-me nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.contact-me a {
+    color: var(--lavender);
+    text-decoration: none;
 }
