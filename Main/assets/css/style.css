@@ -54,7 +54,7 @@ a {
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 600px;
+    height: 500px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--white);
     color: var(--lavender);
@@ -73,8 +73,7 @@ a {
 
 .about-me p {
     font-size: 16px;
-    position: relative;
-    left: 250px;
+    margin-left: 250px;
 }
 
 .work {
