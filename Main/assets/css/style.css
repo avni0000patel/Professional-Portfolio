@@ -16,7 +16,7 @@ header {
 
 header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 36px;
 }
 
 header nav {
@@ -54,14 +54,16 @@ a {
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 600px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--white);
     color: var(--lavender);
 }
 
 .about-me img {
-    max-height: 200px;
+    height: 300px;
+    position: relative;
+    left: 250px;
 }
 
 .about-me h2 {
@@ -71,19 +73,23 @@ a {
 
 .about-me p {
     font-size: 16px;
+    position: relative;
+    left: 250px;
 }
 
 .work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 1000px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--white);
     color: var(--lavender);
 }
 
 .work img {
-    max-height: 200px;
+    max-height: 1000px;
+    position: relative;
+    left: 250px;
 }
 
 .work h2 {
@@ -95,10 +101,34 @@ a {
     font-size: 16px;
 }
 
+.applications {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.password-generator img {
+    width: 1000px;
+    height: 400px;
+    border: 3px solid var(--lavender);
+}
+
+.code-quiz img {
+    width: 500px;
+    height: 200px;
+    border: 3px solid var(--lavender);
+}
+
+.calculator img {
+    width: 500px;
+    height: 200px;
+    border: 3px solid var(--lavender);
+}
+
 .contact-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 150px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--white);
     color: var(--lavender);
