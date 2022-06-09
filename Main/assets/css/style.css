@@ -79,14 +79,14 @@ a {
 .work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 1000px;
+    height: 1200px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--white);
     color: var(--lavender);
 }
 
 .work img {
-    max-height: 1000px;
+    max-height: 1200px;
     position: relative;
     left: 250px;
 }
@@ -107,21 +107,21 @@ a {
     margin: space-between;
 }
 
-.password-generator img {
+.challenge01 img {
     width: 1020px;
-    height: 400px;
+    height: 800px;
     border: 3px solid var(--lavender);
     margin: 10px;
 }
 
-.code-quiz img {
+.password-generator img {
     width: 500px;
     height: 200px;
     border: 3px solid var(--lavender);
     margin: 10px;
 }
 
-.calculator img {
+.code-quiz img {
     width: 500px;
     height: 200px;
     border: 3px solid var(--lavender);
