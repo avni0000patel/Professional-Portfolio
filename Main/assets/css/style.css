@@ -5,6 +5,7 @@
 
 body {
     background-color: var(--lavender);
+    height: 100%
 }
 
 header {
@@ -54,7 +55,6 @@ a {
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 600px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--white);
     color: var(--lavender);
@@ -79,7 +79,6 @@ a {
 .work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 1200px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--white);
     color: var(--lavender);
@@ -131,7 +130,6 @@ a {
 .contact-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 150px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--white);
     color: var(--lavender);
