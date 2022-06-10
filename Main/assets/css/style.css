@@ -1,22 +1,22 @@
 :root {
-    --lavender: #967bb6;
-    --white: #ffffff;
+    --light: #c0c0c0;
+    --dark: #000000;
+    --rich: pink;
 }
 
 body {
-    background-color: var(--lavender);
+    background-color: var(--dark);
+    color: var(--rich);
     height: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 header {
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: var(--lavender);
-    color: var(--white);
+    background-color: var(--dark);
+    color: var(--light);
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
     z-index: 1;
 }
@@ -44,8 +44,13 @@ header nav ul li {
 }
 
 a {
-    color: var(--white);
     text-decoration: none;
+    color: var(--rich);
+}
+
+a:hover {
+    background-color: yellow;
+    color: green;
 }
 
 .float-left {
@@ -62,8 +67,6 @@ a {
     margin-bottom: 20px;
     padding: 50px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: var(--white);
-    color: var(--lavender);
 }
 
 .about-me img {
@@ -86,8 +89,6 @@ a {
     margin-bottom: 20px;
     padding: 50px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: var(--white);
-    color: var(--lavender);
 }
 
 .work img {
@@ -115,21 +116,21 @@ a {
 .challenge01 img {
     width: 1020px;
     height: 800px;
-    border: 3px solid var(--lavender);
+    border: 3px solid var(--light);
     margin: 10px;
 }
 
 .password-generator img {
     width: 500px;
     height: 200px;
-    border: 3px solid var(--lavender);
+    border: 3px solid var(--light);
     margin: 10px;
 }
 
 .code-quiz img {
     width: 500px;
     height: 200px;
-    border: 3px solid var(--lavender);
+    border: 3px solid var(--light);
     margin: 10px;
 }
 
@@ -137,8 +138,6 @@ a {
     margin-bottom: 20px;
     padding: 50px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: var(--white);
-    color: var(--lavender);
 }
 
 .contact-me h2 {
@@ -162,7 +161,7 @@ a {
     display: inline-block;
     margin-left: 25px;
 }
+
 .contact-me a {
-    color: var(--lavender);
     text-decoration: none;
 }
