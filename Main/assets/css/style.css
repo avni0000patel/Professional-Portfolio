@@ -1,5 +1,5 @@
 :root {
-    --light: #c0c0c0;
+    --light: #ffffff;
     --dark: #000000;
     --rich: pink;
 }
@@ -14,11 +14,12 @@ header {
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--dark);
-    color: var(--light);
+    color: var(--rich);
+    margin: 0 auto;
     position: fixed;
-    top: 0px;
-    width: 100%;
+    top: 0;
     z-index: 1;
+    width: 100%;
 }
 
 header h1 {
@@ -49,8 +50,8 @@ a {
 }
 
 a:hover {
-    background-color: yellow;
-    color: green;
+    background-color: var(--light);
+    color: var(--dark);
 }
 
 .float-left {
@@ -64,7 +65,6 @@ a:hover {
 }
 
 .about-me {
-    margin-bottom: 20px;
     padding: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -78,6 +78,7 @@ a:hover {
 .about-me h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    padding-top: 20px;
 }
 
 .about-me p {
@@ -86,7 +87,6 @@ a:hover {
 }
 
 .work {
-    margin-bottom: 20px;
     padding: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -100,6 +100,7 @@ a:hover {
 .work h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    padding-top: 20px;
 }
 
 .work p {
@@ -110,7 +111,6 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: space-between;
 }
 
 .challenge01 img {
@@ -118,6 +118,7 @@ a:hover {
     height: 800px;
     border: 3px solid var(--light);
     margin: 10px;
+    display: block;
 }
 
 .password-generator img {
@@ -135,7 +136,6 @@ a:hover {
 }
 
 .contact-me {
-    margin-bottom: 20px;
     padding: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -143,10 +143,10 @@ a:hover {
 .contact-me h2 {
     display: inline-block;
     font-size: 36px;
+    padding-top: 20px;
 }
 
 .contact-me nav {
-    padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family:'Courier New', Courier, monospace;
