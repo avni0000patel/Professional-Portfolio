@@ -44,6 +44,7 @@ a:hover {
     background-color: var(--light);
     color: var(--dark);
 }
+
 h1 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -83,17 +84,6 @@ p {
     margin-top: 20px;
 }
 
-.code-refractor, .password-generator, .code-quiz {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100%;
-    padding: 2rem;
-    color: var(--light);
-    outline: 3px dotted var(--heart2);
-    outline-offset: -2px;
-  }
-
 .card-header {
     position: relative;
     margin: -3rem 1rem 2rem 1rem;
@@ -103,6 +93,17 @@ p {
     border: 3px solid var(--light);
     border-radius: 25px;
     text-align: center;
+}
+
+.code-refractor, .password-generator, .code-quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    color: var(--light);
+    outline: 3px dotted var(--heart2);
+    outline-offset: -2px;
 }
 
 .code-refractor img {
@@ -136,4 +137,26 @@ p {
     margin-left: 100px;
     margin-right: 100px;
     padding: 25px 25px 25px 25px;
+}
+
+@media screen and (max-width: 1300px) {
+    .code-refractor img {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .code-refractor img, .password-generator img, .code-quiz img {
+        width: 300px;
+        height: 200px;
+    }
+    header {
+        header nav ul li {
+            display: block;
+        }
+    }
+    html {
+        font-size: 70%!important;
+    }
 }
