@@ -1,15 +1,16 @@
 :root {
     --light: #ffffff;
     --dark: #000000;
-    --rich: pink;
+    --rich: #ffc0cb;
     --heart1: #ae4051;
     --heart2: #c07787;
     --heart3: #cdb2c2;
+    --heart4: #ffc0cb;
 }
 
 body {
     background-color: var(--dark);
-    color: var(--rich);
+    color: var(--heart2);
     font-family: 'Courier New', Courier, monospace;
     height: 100%;
 }
@@ -18,7 +19,7 @@ header {
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--dark);
-    color: var(--rich);
+    color: var(--heart2);
     margin: 0 auto;
     position: fixed;
     top: 0;
@@ -41,7 +42,7 @@ header nav ul li {
 
 a {
     text-decoration: none;
-    color: var(--rich);
+    color: var(--heart2);
 }
 
 a:hover {
@@ -50,7 +51,7 @@ a:hover {
 }
 
 .page {
-    border-bottom: 1px solid var(--heart3);
+    border-bottom: 1px solid var(--heart4);
 
 }
 .about-me {
@@ -92,7 +93,7 @@ p {
 
 .card-column {
     padding: 1.5rem;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .code-refractor, .password-generator, .code-quiz {
@@ -102,7 +103,7 @@ p {
     min-height: 100%;
     padding: 2rem;
     color: var(--light);
-    outline: 3px dotted var(--heart3);
+    outline: 3px dotted var(--heart2);
     outline-offset: -2px;
   }
 
@@ -110,7 +111,7 @@ p {
     position: relative;
     margin: -3rem 0 1rem 0;
     padding: 0.5rem 1rem;
-    background-color: var(--heart3);
+    background-color: var(--heart2);
     color: var(--dark);
     border: 3px solid var(--light);
     border-radius: 8px;
@@ -147,7 +148,7 @@ p {
 
 .contact-me nav ul li {
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 100px;
     margin-right: 100px;
 }
