@@ -10,6 +10,7 @@
 body {
     background-color: var(--dark);
     color: var(--rich);
+    font-family: 'Courier New', Courier, monospace;
     height: 100%;
 }
 
@@ -63,57 +64,49 @@ a:hover {
 }
 
 .about-me {
-    background-color: --var(--heart1);
     padding: 50px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .about-me img {
     height: 300px;
-    position: relative;
-    left: 250px;
 }
 
-.about-me h2 {
+h1 {
     margin-bottom: 20px;
     font-size: 36px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
-.about-me p {
+p {
     font-size: 16px;
-    margin-left: 250px;
 }
 
 .work {
-    padding: 50px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.work img {
-    max-height: 1200px;
-    position: relative;
-    left: 250px;
-}
-
-.work h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    padding-top: 20px;
-}
-
-.work p {
-    font-size: 16px;
-}
-
-.applications {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    padding: 50px;
 }
 
-.challenge01 img {
-    width: 1020px;
+.card-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-header {
+    /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
+    padding: 0.5rem 1rem;
+    background-color: var(--heart3);
+    color: var(--dark);
+    border: 2px solid var(--light);
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+  }
+
+.code-refractor img {
+    width: 1320px;
     height: 800px;
     border: 3px solid var(--light);
     margin: 10px;
@@ -121,31 +114,21 @@ a:hover {
 }
 
 .password-generator img {
-    width: 500px;
+    width: 650px;
     height: 200px;
     border: 3px solid var(--light);
     margin: 10px;
+    display: block;
 }
 
 .code-quiz img {
-    width: 500px;
+    width: 650px;
     height: 200px;
     border: 3px solid var(--light);
     margin: 10px;
+    display: block;
 }
 
 .contact-me {
     padding: 50px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.contact-me h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    padding-top: 20px;
-}
-
-.contact-me p {
-    font-size: 16px;
-    margin-left: 250px;
 }
