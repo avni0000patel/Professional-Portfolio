@@ -49,18 +49,17 @@ a:hover {
     color: var(--dark);
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
+.page {
+    border-bottom: 1px solid var(--heart3);
 
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
-
 .about-me {
     padding: 50px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
 }
 
 .about-me img {
@@ -93,6 +92,7 @@ p {
 
 .card-column {
     padding: 1.5rem;
+    margin-top: 15px;
 }
 
 .code-refractor, .password-generator, .code-quiz {
@@ -147,6 +147,7 @@ p {
 
 .contact-me nav ul li {
     display: inline-block;
+    margin-top: 15px;
     margin-left: 100px;
     margin-right: 100px;
 }
