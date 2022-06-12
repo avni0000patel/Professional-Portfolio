@@ -44,13 +44,19 @@ a:hover {
     background-color: var(--light);
     color: var(--dark);
 }
+h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    padding: 80px 50px 0px 50px;
+}
+
+p {
+    font-size: 16px;
+    padding: 25px 50px 0px 50px;
+}
 
 .page {
     border-bottom: 2px solid var(--heart2);
-}
-
-.about-me {
-    padding: 50px;
 }
 
 .me {
@@ -60,20 +66,6 @@ a:hover {
 
 .about-me img {
     height: 300px;
-}
-
-h1 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    padding-top: 15px;
-}
-
-p {
-    font-size: 16px;
-}
-
-.work {
-    padding: 50px;
 }
 
 .row {
@@ -133,10 +125,6 @@ p {
     display: block;
 }
 
-.contact-me {
-    padding: 50px;
-}
-
 .contact-me nav ul {
     text-align: center;
 }
@@ -146,4 +134,5 @@ p {
     margin-top: 20px;
     margin-left: 100px;
     margin-right: 100px;
+    padding: 25px 25px 25px 25px;
 }
