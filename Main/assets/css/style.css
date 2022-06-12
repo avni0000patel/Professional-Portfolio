@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--dark);
     color: var(--rich);
@@ -27,20 +27,16 @@ header {
 }
 
 header nav {
-    padding-top: 10px;
-    margin-right: 20px;
-    float: right;
+    padding-top: 15px;
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
+    text-align: center;
 }
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    margin-right: 25px;
 }
 
 a {
@@ -143,4 +139,14 @@ p {
 
 .contact-me {
     padding: 50px;
+}
+
+.contact-me nav ul {
+    text-align: center;
+}
+
+.contact-me nav ul li {
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
 }
