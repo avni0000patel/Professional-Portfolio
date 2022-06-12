@@ -1,7 +1,6 @@
 :root {
     --light: #ffffff;
     --dark: #000000;
-    --rich: #ffc0cb;
     --heart1: #ae4051;
     --heart2: #c07787;
     --heart3: #cdb2c2;
@@ -16,7 +15,7 @@ body {
 }
 
 header {
-    padding: 10px;
+    padding: 15px;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--dark);
     color: var(--heart2);
