@@ -16,10 +16,7 @@ body {
 
 header {
     padding: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: var(--dark);
-    color: var(--heart2);
-    margin: 0 auto;
+    margin: 0;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -28,7 +25,6 @@ header {
 
 header nav {
     padding-top: 15px;
-    font-family:'Courier New', Courier, monospace;
     font-size: 20px;
     text-align: center;
 }
