@@ -82,50 +82,50 @@ p {
 }
 
 .work {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     padding: 50px;
 }
 
-.card-column {
+.row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.justify-center {
     justify-content: center;
 }
 
+.card-column {
+    padding: 1.5rem;
+}
+
 .card-header {
-    /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
     padding: 0.5rem 1rem;
     background-color: var(--heart3);
     color: var(--dark);
     border: 2px solid var(--light);
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
-  }
+}
 
 .code-refractor img {
-    width: 1320px;
+    width: 1220px;
     height: 800px;
     border: 3px solid var(--light);
-    margin: 10px;
     display: block;
 }
 
 .password-generator img {
-    width: 650px;
+    width: 600px;
     height: 200px;
     border: 3px solid var(--light);
-    margin: 10px;
     display: block;
 }
 
 .code-quiz img {
-    width: 650px;
+    width: 600px;
     height: 200px;
     border: 3px solid var(--light);
-    margin: 10px;
     display: block;
 }
 
