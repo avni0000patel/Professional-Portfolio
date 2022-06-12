@@ -19,7 +19,6 @@ header {
     color: var(--heart2);
     padding: 15px;
     position: fixed;
-    top: 0;
     z-index: 1;
     width: 100%;
 }
@@ -47,9 +46,9 @@ a:hover {
 }
 
 .page {
-    border-bottom: 1px solid var(--heart4);
-
+    border-bottom: 2px solid var(--heart2);
 }
+
 .about-me {
     padding: 50px;
 }
