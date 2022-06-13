@@ -139,7 +139,7 @@ p {
     padding: 25px 25px 25px 25px;
 }
 
-/* For mobile displays */
+/* For mobile displays using iPhone SE, iPhone XR, iPhone 12 Pro, Pixel 5, and Samsung Galazy S20 Ultra dimensions */
 @media only screen and (max-width: 600px) and (orientation: portrait) {
     header nav {
 
@@ -163,12 +163,12 @@ p {
     }
 
     .code-refractor img {
-        width: 300px;
+        width: 275px;
         height: 200px;
     }
 
     .password-generator img, .code-quiz img {
-        width: 300px;
+        width: 275px;
         height: 100px;
     }
 }
