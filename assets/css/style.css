@@ -139,7 +139,7 @@ p {
 }
 
 /* For mobile displays using Surface Duo dimensions */
-@media only screen and (max-width: 600px) and (orientation: portrait) {
+@media only screen and (max-width: 767px) and (orientation: portrait) {
     header nav {
     }
 
@@ -148,6 +148,7 @@ p {
         flex-wrap: wrap;
         flex-direction: column;
         height: 125px;
+        text-align: center;
     }
 
     header nav ul li {
@@ -171,43 +172,13 @@ p {
     }
 }
 
-/* For mobile displays using iPhone SE, iPhone XR, iPhone 12 Pro, Pixel 5, and Samsung Galazy S20 Ultra dimensions */
-@media only screen and (max-width: 500px) and (orientation: portrait) {
-    header nav {
-    }
-
-    header nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        text-align: center;
-        height: 125px;
-    }
-
-    header nav ul li {
-        width: 50%;
-        padding-bottom: 5px;
-        text-align: center;
-    }
-
-    h1 {
-        padding: 200px 50px 0px 50px;
-        text-align: center;
-    }
-
-    .code-refractor img {
-        width: 275px;
-        height: 200px;
-    }
-
-    .password-generator img, .code-quiz img {
-        width: 275px;
-        height: 100px;
-    }
-}
-
 /* For mobile displays using iPhone SE, and Samsung Galaxy S8+ dimensions */
 @media only screen and (max-width: 375px) and (orientation: portrait) {
+    header {
+        align-items: center;
+        justify-content: center;
+    }
+
     header nav {
     }
 
