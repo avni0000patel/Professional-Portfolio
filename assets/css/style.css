@@ -31,8 +31,7 @@ header nav {
 
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
+    padding: 10px 20px;
 }
 
 a {
@@ -139,26 +138,60 @@ p {
     padding: 25px 25px 25px 25px;
 }
 
-/* For mobile displays using iPhone SE, iPhone XR, iPhone 12 Pro, Pixel 5, and Samsung Galazy S20 Ultra dimensions */
+/* For mobile displays using Surface Duo dimensions */
 @media only screen and (max-width: 600px) and (orientation: portrait) {
     header nav {
-
     }
 
     header nav ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        height: 125px;
+    }
+
+    header nav ul li {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+
+    h1 {
+        padding: 200px 50px 0px 50px;
+        text-align: center;
+    }
+
+    .code-refractor img {
+        width: 425px;
+        height: 200px;
+    }
+
+    .password-generator img, .code-quiz img {
+        width: 425px;
+        height: 100px;
+    }
+}
+
+/* For mobile displays using iPhone SE, iPhone XR, iPhone 12 Pro, Pixel 5, and Samsung Galazy S20 Ultra dimensions */
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+    header nav {
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        height: 125px;
     }
 
     header nav ul li {
         width: 50%;
         padding-bottom: 5px;
-        margin: 0.5rem 0rem 0.5rem 6rem;
+        text-align: center;
     }
 
     h1 {
-        padding: 175px 50px 0px 50px;
+        padding: 200px 50px 0px 50px;
         text-align: center;
     }
 
@@ -169,6 +202,40 @@ p {
 
     .password-generator img, .code-quiz img {
         width: 275px;
+        height: 100px;
+    }
+}
+
+/* For mobile displays using iPhone SE, and Samsung Galaxy S8+ dimensions */
+@media only screen and (max-width: 375px) and (orientation: portrait) {
+    header nav {
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 125px;
+    }
+
+    header nav ul li {
+        width: 50%;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+
+    h1 {
+        padding: 200px 50px 0px 50px;
+        text-align: center;
+    }
+
+    .code-refractor img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .password-generator img, .code-quiz img {
+        width: 250px;
         height: 100px;
     }
 }
