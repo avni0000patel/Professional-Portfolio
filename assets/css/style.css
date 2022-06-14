@@ -148,7 +148,7 @@ p {
 }
 
 /* For laptops M displays */
-@media only screen and (max-width: 1290px) and (orientation: portrait) {
+@media only screen and (max-width: 1290px) {
     header {
         justify-content: center;
     }
