@@ -166,13 +166,13 @@ p {
     }
 
     .code-refractor img {
-        width: 650px;
-        height: 400px;
+        width: 900px;
+        height: 600px;
     }
 
     .password-generator img, .code-quiz img {
-        width: 650px;
-        height: 200px;
+        width: 900px;
+        height: 300px;
     }
 }
 
