@@ -47,12 +47,12 @@ a:hover {
 h1 {
     margin-bottom: 20px;
     font-size: 36px;
-    padding: 80px 0px 0px 50px;
+    padding: 80px 50px 0px 50px;
 }
 
 p {
     font-size: 16px;
-    padding: 25px 0px 0px 50px;
+    padding: 25px 50px 0px 50px;
 }
 
 .page {
@@ -85,7 +85,7 @@ p {
 
 .card-header {
     position: relative;
-    margin: -3rem 1rem 1rem 1rem;
+    margin: -3rem 1rem 2rem 1rem;
     padding: 0.5rem 1rem;
     background-color: var(--heart2);
     color: var(--dark);
@@ -99,7 +99,7 @@ p {
     flex-direction: column;
     justify-content: flex-start;
     min-height: 100%;
-    padding: 1rem;
+    padding: 2rem;
     color: var(--light);
     outline: 3px dotted var(--heart2);
     outline-offset: -2px;
@@ -132,13 +132,16 @@ p {
 
 .contact-me nav ul li {
     display: inline-block;
-    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 25px 25px 25px 25px;
 }
 
-
-/* For medium mobile displays */
-@media only screen and (max-width: 952px) and (orientation: portrait) {
+/* For mobile displays */
+@media only screen and (max-width: 912px) and (orientation: portrait) {
     header {
+        align-items: center;
         justify-content: center;
     }
 
@@ -154,42 +157,30 @@ p {
     }
 
     header nav ul li {
-        width: 100%;
         padding-bottom: 5px;
     }
 
     h1 {
-        padding: 200px 0px 0px 50px;
+        padding: 200px 50px 0px 50px;
+        text-align: center;
     }
 
     .code-refractor img {
         width: 600px;
-        height: 200px;
+        height: 400px;
     }
 
     .password-generator img, .code-quiz img {
         width: 600px;
         height: 200px;
     }
-
-    .contact-me nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 125px;
-        text-align: center;
-    }
-
-    .contact-me nav ul li {
-        width: 100%;
-        padding-bottom: 5px;
-    }
-
 }
 
-/* For medium mobile displays */
-@media only screen and (max-width: 768px) and (orientation: portrait) {
+
+/* For mobile displays */
+@media only screen and (max-width: 540px) and (orientation: portrait) {
     header {
+        align-items: center;
         justify-content: center;
     }
 
@@ -205,41 +196,29 @@ p {
     }
 
     header nav ul li {
-        width: 100%;
         padding-bottom: 5px;
     }
 
     h1 {
-        padding: 200px 0px 0px 50px;
+        padding: 200px 50px 0px 50px;
+        text-align: center;
     }
 
     .code-refractor img {
-        width: 600px;
+        width: 425px;
         height: 200px;
     }
 
     .password-generator img, .code-quiz img {
-        width: 600px;
-        height: 200px;
-    }
-
-    .contact-me nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 125px;
-        text-align: center;
-    }
-
-    .contact-me nav ul li {
-        width: 100%;
-        padding-bottom: 5px;
+        width: 425px;
+        height: 100px;
     }
 }
 
-/* For medium/small mobile displays */
-@media only screen and (max-width: 408px) and (orientation: portrait) {
+/* For mobile displays */
+@media only screen and (max-width: 425px) and (orientation: portrait) {
     header {
+        align-items: center;
         justify-content: center;
     }
 
@@ -254,13 +233,13 @@ p {
     }
 
     header nav ul li {
-        width: 100%;
         padding-bottom: 5px;
         text-align: center;
     }
 
     h1 {
-        padding: 200px 0px 0px 50px;
+        padding: 200px 50px 0px 50px;
+        text-align: center;
     }
 
     .code-refractor img {
@@ -272,24 +251,12 @@ p {
         width: 250px;
         height: 100px;
     }
-
-    .contact-me nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 125px;
-        text-align: center;
-    }
-
-    .contact-me nav ul li {
-        width: 100%;
-        padding-bottom: 5px;
-    }
 }
 
-/* For small mobile displays */
-@media only screen and (max-width: 360px) and (orientation: portrait) {
+/* For mobile displays */
+@media only screen and (max-width: 280px) and (orientation: portrait) {
     header {
+        align-items: center;
         justify-content: center;
     }
 
@@ -304,35 +271,22 @@ p {
     }
 
     header nav ul li {
-        width: 100%;
         padding-bottom: 5px;
         text-align: center;
     }
 
     h1 {
-        padding: 200px 0px 0px 50px;
+        padding: 200px 50px 0px 50px;
+        text-align: center;
     }
 
     .code-refractor img {
-        width: 240px;
+        width: 175px;
         height: 200px;
     }
 
     .password-generator img, .code-quiz img {
-        width: 240px;
+        width: 175px;
         height: 100px;
-    }
-
-    .contact-me nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 125px;
-        text-align: center;
-    }
-
-    .contact-me nav ul li {
-        width: 100%;
-        padding-bottom: 5px;
     }
 }
