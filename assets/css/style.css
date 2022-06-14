@@ -47,12 +47,12 @@ a:hover {
 h1 {
     margin-bottom: 20px;
     font-size: 36px;
-    padding: 80px 50px 0px 50px;
+    padding: 80px 0px 0px 50px;
 }
 
 p {
     font-size: 16px;
-    padding: 25px 50px 0px 50px;
+    padding: 25px 0px 0px 50px;
 }
 
 .page {
@@ -132,14 +132,11 @@ p {
 
 .contact-me nav ul li {
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 25px 25px 25px 25px;
+    padding: 10px 20px;
 }
 
 /* For medium mobile displays */
-@media only screen and (max-width: 552px) and (orientation: portrait) {
+@media only screen and (max-width: 768px) and (orientation: portrait) {
     header {
         align-items: center;
         justify-content: center;
@@ -162,22 +159,17 @@ p {
     }
 
     h1 {
-        padding: 200px 50px 0px 50px;
-        text-align: center;
-    }
-
-    p {
-        width: 100%;
+        padding: 200px 0px 0px 50px;
     }
 
     .code-refractor img {
-        width: 300px;
+        width: 600px;
         height: 200px;
     }
 
     .password-generator img, .code-quiz img {
-        width: 300px;
-        height: 100px;
+        width: 600px;
+        height: 200px;
     }
 }
 
@@ -205,8 +197,7 @@ p {
     }
 
     h1 {
-        padding: 200px 50px 0px 50px;
-        text-align: center;
+        padding: 200px 0px 0px 50px;
     }
 
     .code-refractor img {
@@ -244,8 +235,7 @@ p {
     }
 
     h1 {
-        padding: 200px 50px 0px 50px;
-        text-align: center;
+        padding: 200px 0px 0px 50px;
     }
 
     .code-refractor img {
