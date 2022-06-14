@@ -138,8 +138,13 @@ p {
     padding: 25px 25px 25px 25px;
 }
 
-/* For mobile displays using Surface Duo dimensions */
+/* For mobile displays */
 @media only screen and (max-width: 767px) and (orientation: portrait) {
+    header {
+        align-items: center;
+        justify-content: center;
+    }
+
     header nav {
     }
 
