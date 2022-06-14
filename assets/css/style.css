@@ -135,10 +135,10 @@ p {
     padding: 10px 20px;
 }
 
+
 /* For medium mobile displays */
-@media only screen and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (max-width: 952px) and (orientation: portrait) {
     header {
-        align-items: center;
         justify-content: center;
     }
 
@@ -170,13 +170,76 @@ p {
     .password-generator img, .code-quiz img {
         width: 600px;
         height: 200px;
+    }
+
+    .contact-me nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 125px;
+        text-align: center;
+    }
+
+    .contact-me nav ul li {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+
+}
+
+/* For medium mobile displays */
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+    header {
+        justify-content: center;
+    }
+
+    header nav {
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 125px;
+        text-align: center;
+    }
+
+    header nav ul li {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+
+    h1 {
+        padding: 200px 0px 0px 50px;
+    }
+
+    .code-refractor img {
+        width: 600px;
+        height: 200px;
+    }
+
+    .password-generator img, .code-quiz img {
+        width: 600px;
+        height: 200px;
+    }
+
+    .contact-me nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 125px;
+        text-align: center;
+    }
+
+    .contact-me nav ul li {
+        width: 100%;
+        padding-bottom: 5px;
     }
 }
 
 /* For medium/small mobile displays */
 @media only screen and (max-width: 408px) and (orientation: portrait) {
     header {
-        align-items: center;
         justify-content: center;
     }
 
@@ -208,13 +271,25 @@ p {
     .password-generator img, .code-quiz img {
         width: 250px;
         height: 100px;
+    }
+
+    .contact-me nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 125px;
+        text-align: center;
+    }
+
+    .contact-me nav ul li {
+        width: 100%;
+        padding-bottom: 5px;
     }
 }
 
 /* For small mobile displays */
 @media only screen and (max-width: 360px) and (orientation: portrait) {
     header {
-        align-items: center;
         justify-content: center;
     }
 
@@ -247,3 +322,17 @@ p {
         width: 240px;
         height: 100px;
     }
+
+    .contact-me nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 125px;
+        text-align: center;
+    }
+
+    .contact-me nav ul li {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+}
