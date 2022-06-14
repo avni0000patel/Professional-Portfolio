@@ -5,3 +5,4 @@ https://github.com/avni0000patel
 ## GitHub Pages Link
 https://avni0000patel.github.io/git-challenge02/
 ## Screenshot
+![portfolioscreenshot html](https://user-images.githubusercontent.com/104175474/173674035-fc660432-1e0f-4024-aea2-3e835e4af424.png)
