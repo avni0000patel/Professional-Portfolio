@@ -167,17 +167,17 @@ p {
     }
 
     .code-refractor img {
-        width: 425px;
+        width: 300px;
         height: 200px;
     }
 
     .password-generator img, .code-quiz img {
-        width: 425px;
+        width: 300px;
         height: 100px;
     }
 }
 
-/* For mobile displays using iPhone SE, and Samsung Galaxy S8+ dimensions */
+/* For small mobile displays */
 @media only screen and (max-width: 375px) and (orientation: portrait) {
     header {
         align-items: center;
