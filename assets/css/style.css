@@ -182,7 +182,7 @@ p {
 }
 
 /* For laptop S displays */
-@media only screen and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and (max-width: 1024px) {
     header {
         justify-content: center;
     }
@@ -216,7 +216,7 @@ p {
 }
 
 /* For tablet L displays */
-@media only screen and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (max-width: 768px) {
     header {
         justify-content: center;
     }
@@ -250,7 +250,7 @@ p {
 }
 
 /* For tablet S displays */
-@media only screen and (max-width: 560px) and (orientation: portrait) {
+@media only screen and (max-width: 560px) {
     header {
         justify-content: center;
     }
@@ -307,17 +307,17 @@ p {
     }
 
     .code-refractor img {
-        width: 275px;
+        width: 240px;
         height: 200px;
     }
 
     .professional-portfolio img, .password-generator img, .code-quiz img {
-        width: 275px;
+        width: 240px;
         height: 100px;
     }
 }
 
-/* For mobile M displays */
+/* For mobile L displays */
 @media only screen and (max-width: 375px) and (orientation: portrait) {
     header {
         justify-content: center;
@@ -341,46 +341,12 @@ p {
     }
 
     .code-refractor img {
-        width: 270px;
+        width: 200px;
         height: 200px;
     }
 
     .professional-portfolio img, .password-generator img, .code-quiz img {
-        width: 270px;
-        height: 100px;
-    }
-}
-
-/* For mobile M/S displays */
-@media only screen and (max-width: 360px) and (orientation: portrait) {
-    header {
-        justify-content: center;
-    }
-
-    header nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 125px;
-    }
-
-    header nav ul li {
-        padding-bottom: 5px;
-        text-align: center;
-    }
-
-    h1 {
-        padding: 200px 50px 0px 50px;
-        text-align: center;
-    }
-
-    .code-refractor img {
-        width: 240px;
-        height: 200px;
-    }
-
-    .professional-portfolio img, .password-generator img, .code-quiz img {
-        width: 240px;
+        width: 200px;
         height: 100px;
     }
 }
