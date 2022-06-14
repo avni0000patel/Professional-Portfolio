@@ -141,11 +141,7 @@ p {
 /* For laptops M displays */
 @media only screen and (max-width: 1290px) and (orientation: portrait) {
     header {
-        align-items: center;
         justify-content: center;
-    }
-
-    header nav {
     }
 
     header nav ul {
@@ -179,11 +175,7 @@ p {
 /* For laptop S displays */
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
     header {
-        align-items: center;
         justify-content: center;
-    }
-
-    header nav {
     }
 
     header nav ul {
@@ -217,11 +209,7 @@ p {
 /* For tablet L displays */
 @media only screen and (max-width: 768px) and (orientation: portrait) {
     header {
-        align-items: center;
         justify-content: center;
-    }
-
-    header nav {
     }
 
     header nav ul {
@@ -255,11 +243,7 @@ p {
 /* For tablet S displays */
 @media only screen and (max-width: 560px) and (orientation: portrait) {
     header {
-        align-items: center;
         justify-content: center;
-    }
-
-    header nav {
     }
 
     header nav ul {
@@ -293,11 +277,7 @@ p {
 /* For mobile L displays */
 @media only screen and (max-width: 425px) and (orientation: portrait) {
     header {
-        align-items: center;
         justify-content: center;
-    }
-
-    header nav {
     }
 
     header nav ul {
@@ -331,11 +311,7 @@ p {
 /* For mobile M displays */
 @media only screen and (max-width: 375px) and (orientation: portrait) {
     header {
-        align-items: center;
         justify-content: center;
-    }
-
-    header nav {
     }
 
     header nav ul {
