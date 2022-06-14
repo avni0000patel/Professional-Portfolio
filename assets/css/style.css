@@ -1,3 +1,4 @@
+/* Not all colors used */
 :root {
     --light: #ffffff;
     --dark: #000000;
@@ -14,6 +15,7 @@ body {
     height: 100%;
 }
 
+/* Index is set to 1 so it nothing falls on top of header when you scroll */
 header {
     background-color: var(--dark);
     color: var(--heart2);
@@ -94,7 +96,7 @@ p {
     text-align: center;
 }
 
-.code-refractor, .password-generator, .code-quiz {
+.code-refractor, .professional-portfolio, .password-generator, .code-quiz {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -108,6 +110,13 @@ p {
 .code-refractor img {
     width: 1200px;
     height: 800px;
+    border: 3px solid var(--light);
+    display: block;
+}
+
+.professional-portfolio img {
+    width: 500px;
+    height: 200px;
     border: 3px solid var(--light);
     display: block;
 }
