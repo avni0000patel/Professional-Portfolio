@@ -317,7 +317,7 @@ p {
     }
 }
 
-/* For mobile L displays */
+/* For mobile M displays */
 @media only screen and (max-width: 375px) and (orientation: portrait) {
     header {
         justify-content: center;
