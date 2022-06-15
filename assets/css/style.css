@@ -307,12 +307,12 @@ p {
     }
 
     .code-refractor img {
-        width: 260px;
+        width: 280px;
         height: 200px;
     }
 
     .professional-portfolio img, .password-generator img, .code-quiz img {
-        width: 260px;
+        width: 280px;
         height: 100px;
     }
 }
@@ -341,12 +341,12 @@ p {
     }
 
     .code-refractor img {
-        width: 255px;
+        width: 260px;
         height: 200px;
     }
 
     .professional-portfolio img, .password-generator img, .code-quiz img {
-        width: 255px;
+        width: 260px;
         height: 100px;
     }
 }
