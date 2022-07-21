@@ -96,7 +96,7 @@ p {
     text-align: center;
 }
 
-.code-refractor, .professional-portfolio, .password-generator, .code-quiz {
+.code-refractor, .professional-portfolio, .password-generator, .code-quiz, .work-day-scheduler, .weather-dashboard, .wanderlist {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -114,21 +114,7 @@ p {
     display: block;
 }
 
-.professional-portfolio img {
-    width: 500px;
-    height: 200px;
-    border: 3px solid var(--light);
-    display: block;
-}
-
-.password-generator img {
-    width: 500px;
-    height: 200px;
-    border: 3px solid var(--light);
-    display: block;
-}
-
-.code-quiz img {
+.professional-portfolio img, .password-generator img, .code-quiz img, .work-day-scheduler img, .weather-dashboard img, .wanderlist img {
     width: 500px;
     height: 200px;
     border: 3px solid var(--light);
@@ -175,7 +161,7 @@ p {
         height: 600px;
     }
 
-    .professional-portfolio img, .password-generator img, .code-quiz img {
+    .professional-portfolio img, .password-generator img, .code-quiz img, .work-day-scheduler img, .weather-dashboard img, .wanderlist img {
         width: 700px;
         height: 300px;
     }
@@ -209,7 +195,7 @@ p {
         height: 600px;
     }
 
-    .professional-portfolio img, .password-generator img, .code-quiz img {
+    .professional-portfolio img, .password-generator img, .code-quiz img, .work-day-scheduler img, .weather-dashboard img, .wanderlist img {
         width: 600px;
         height: 300px;
     }
@@ -243,7 +229,7 @@ p {
         height: 400px;
     }
 
-    .professional-portfolio img, .password-generator img, .code-quiz img {
+    .professional-portfolio img, .password-generator img, .code-quiz img, .work-day-scheduler img, .weather-dashboard img, .wanderlist img {
         width: 450px;
         height: 200px;
     }
@@ -277,7 +263,7 @@ p {
         height: 400px;
     }
 
-    .professional-portfolio img, .password-generator img, .code-quiz img {
+    .professional-portfolio img, .password-generator img, .code-quiz img, .work-day-scheduler img, .weather-dashboard img, .wanderlist img {
         width: 300px;
         height: 200px;
     }
@@ -311,7 +297,7 @@ p {
         height: 200px;
     }
 
-    .professional-portfolio img, .password-generator img, .code-quiz img {
+    .professional-portfolio img, .password-generator img, .code-quiz img, .work-day-scheduler img, .weather-dashboard img, .wanderlist img {
         width: 280px;
         height: 100px;
     }
@@ -345,7 +331,7 @@ p {
         height: 200px;
     }
 
-    .professional-portfolio img, .password-generator img, .code-quiz img {
+    .professional-portfolio img, .password-generator img, .code-quiz img, .work-day-scheduler img, .weather-dashboard img, .wanderlist img {
         width: 260px;
         height: 100px;
     }
