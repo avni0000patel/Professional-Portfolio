@@ -5,4 +5,5 @@ https://github.com/avni0000patel
 ## GitHub Pages Link
 https://avni0000patel.github.io/Professional-Portfolio/
 ## Screenshot
-![portfolioscreenshot html](https://user-images.githubusercontent.com/104175474/173674035-fc660432-1e0f-4024-aea2-3e835e4af424.png)
+![Professional-Portfolio_](https://user-images.githubusercontent.com/104175474/181381071-997e63a5-b439-43f6-94ea-6cc2bd2b9c8d.png)
+
