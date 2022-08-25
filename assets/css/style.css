@@ -102,7 +102,11 @@ p {
 .code-quiz,
 .work-day-scheduler,
 .weather-dashboard,
-.wanderlist {
+.wanderlist,
+.professional-readme-generator,
+.team-profile-generator,
+.note-taker,
+.employee-tracker {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -125,7 +129,11 @@ p {
 .code-quiz img,
 .work-day-scheduler img,
 .weather-dashboard img,
-.wanderlist img {
+.wanderlist img,
+.professional-readme-generator img,
+.team-profile-generator img,
+.note-taker img,
+.employee-tracker img {
     width: 500px;
     height: 200px;
     border: 3px solid var(--light);
@@ -177,7 +185,11 @@ p {
     .code-quiz img,
     .work-day-scheduler img,
     .weather-dashboard img,
-    .wanderlist img {
+    .wanderlist img,
+    .professional-readme-generator img,
+    .team-profile-generator img,
+    .note-taker img,
+    .employee-tracker img {
         width: 700px;
         height: 300px;
     }
@@ -216,7 +228,11 @@ p {
     .code-quiz img,
     .work-day-scheduler img,
     .weather-dashboard img,
-    .wanderlist img {
+    .wanderlist img,
+    .professional-readme-generator img,
+    .team-profile-generator img,
+    .note-taker img,
+    .employee-tracker img {
         width: 600px;
         height: 300px;
     }
@@ -255,7 +271,11 @@ p {
     .code-quiz img,
     .work-day-scheduler img,
     .weather-dashboard img,
-    .wanderlist img {
+    .wanderlist img,
+    .professional-readme-generator img,
+    .team-profile-generator img,
+    .note-taker img,
+    .employee-tracker img {
         width: 450px;
         height: 200px;
     }
@@ -294,7 +314,11 @@ p {
     .code-quiz img,
     .work-day-scheduler img,
     .weather-dashboard img,
-    .wanderlist img {
+    .wanderlist img,
+    .professional-readme-generator img,
+    .team-profile-generator img,
+    .note-taker img,
+    .employee-tracker img {
         width: 300px;
         height: 200px;
     }
@@ -333,7 +357,11 @@ p {
     .code-quiz img,
     .work-day-scheduler img,
     .weather-dashboard img,
-    .wanderlist img {
+    .wanderlist img,
+    .professional-readme-generator img,
+    .team-profile-generator img,
+    .note-taker img,
+    .employee-tracker img {
         width: 280px;
         height: 100px;
     }
@@ -372,7 +400,11 @@ p {
     .code-quiz img,
     .work-day-scheduler img,
     .weather-dashboard img,
-    .wanderlist img {
+    .wanderlist img,
+    .professional-readme-generator img,
+    .team-profile-generator img,
+    .note-taker img,
+    .employee-tracker img {
         width: 260px;
         height: 100px;
     }
