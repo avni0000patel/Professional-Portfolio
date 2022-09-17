@@ -106,7 +106,10 @@ p {
 .professional-readme-generator,
 .team-profile-generator,
 .note-taker,
-.employee-tracker {
+.employee-tracker,
+.e-commerce-back-end,
+.tech-blog,
+.rig-match-me {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -117,7 +120,8 @@ p {
     outline-offset: -2px;
 }
 
-.code-refractor img {
+.code-refractor img,
+.rig-match-me img {
     width: 1200px;
     height: 800px;
     border: 3px solid var(--light);
@@ -133,7 +137,9 @@ p {
 .professional-readme-generator img,
 .team-profile-generator img,
 .note-taker img,
-.employee-tracker img {
+.employee-tracker img,
+.e-commerce-back-end img,
+.tech-blog img {
     width: 500px;
     height: 200px;
     border: 3px solid var(--light);
@@ -175,7 +181,8 @@ p {
         text-align: center;
     }
 
-    .code-refractor img {
+    .code-refractor img,
+    .rig-match-me img {
         width: 700px;
         height: 600px;
     }
@@ -189,7 +196,9 @@ p {
     .professional-readme-generator img,
     .team-profile-generator img,
     .note-taker img,
-    .employee-tracker img {
+    .employee-tracker img,
+    .e-commerce-back-end img,
+    .tech-blog img {
         width: 700px;
         height: 300px;
     }
@@ -218,7 +227,8 @@ p {
         text-align: center;
     }
 
-    .code-refractor img {
+    .code-refractor img,
+    .rig-match-me img {
         width: 600px;
         height: 600px;
     }
@@ -232,7 +242,9 @@ p {
     .professional-readme-generator img,
     .team-profile-generator img,
     .note-taker img,
-    .employee-tracker img {
+    .employee-tracker img,
+    .e-commerce-back-end img,
+    .tech-blog img {
         width: 600px;
         height: 300px;
     }
@@ -261,7 +273,8 @@ p {
         text-align: center;
     }
 
-    .code-refractor img {
+    .code-refractor img,
+    .rig-match-me img {
         width: 450px;
         height: 400px;
     }
@@ -275,7 +288,9 @@ p {
     .professional-readme-generator img,
     .team-profile-generator img,
     .note-taker img,
-    .employee-tracker img {
+    .employee-tracker img,
+    .e-commerce-back-end img,
+    .tech-blog img {
         width: 450px;
         height: 200px;
     }
@@ -304,7 +319,8 @@ p {
         text-align: center;
     }
 
-    .code-refractor img {
+    .code-refractor img,
+    .rig-match-me img {
         width: 300px;
         height: 400px;
     }
@@ -318,7 +334,9 @@ p {
     .professional-readme-generator img,
     .team-profile-generator img,
     .note-taker img,
-    .employee-tracker img {
+    .employee-tracker img,
+    .e-commerce-back-end img,
+    .tech-blog img {
         width: 300px;
         height: 200px;
     }
@@ -347,7 +365,8 @@ p {
         text-align: center;
     }
 
-    .code-refractor img {
+    .code-refractor img,
+    .rig-match-me img {
         width: 280px;
         height: 200px;
     }
@@ -361,7 +380,9 @@ p {
     .professional-readme-generator img,
     .team-profile-generator img,
     .note-taker img,
-    .employee-tracker img {
+    .employee-tracker img,
+    .e-commerce-back-end img,
+    .tech-blog img {
         width: 280px;
         height: 100px;
     }
@@ -390,7 +411,8 @@ p {
         text-align: center;
     }
 
-    .code-refractor img {
+    .code-refractor img,
+    .rig-match-me img {
         width: 260px;
         height: 200px;
     }
@@ -404,7 +426,9 @@ p {
     .professional-readme-generator img,
     .team-profile-generator img,
     .note-taker img,
-    .employee-tracker img {
+    .employee-tracker img,
+    .e-commerce-back-end img,
+    .tech-blog img {
         width: 260px;
         height: 100px;
     }
