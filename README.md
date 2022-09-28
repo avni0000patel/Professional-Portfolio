@@ -4,6 +4,9 @@ In this project my professional portfolio has been created to show my skills and
 https://github.com/avni0000patel
 ## GitHub Pages Link
 https://avni0000patel.github.io/Professional-Portfolio/
+## Technologies Used
+HTML - creates the structure of Web pages
+
+CSS - creates the presentation of Web pages
 ## Screenshot
 ![Professional-Portfolio_](https://user-images.githubusercontent.com/104175474/181381071-997e63a5-b439-43f6-94ea-6cc2bd2b9c8d.png)
-
