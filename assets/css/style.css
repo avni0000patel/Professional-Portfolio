@@ -58,17 +58,13 @@ p {
     padding: 25px 50px 0px 50px;
 }
 
-.page {
-    border-bottom: 2px solid var(--heart2);
-}
-
 .me {
     display: flex;
     justify-content: center;
 }
 
 .about-me img {
-    height: 300px;
+    height: 150px;
 }
 
 .row {
