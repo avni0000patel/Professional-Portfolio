@@ -16,25 +16,25 @@ body {
 }
 
 /* Index is set to 1 so it nothing falls on top of header when you scroll */
-header {
+/* header {
     background-color: var(--dark);
     color: var(--heart2);
     padding: 15px;
     position: fixed;
     z-index: 1;
     width: 100%;
-}
+} */
 
-header nav {
+/* header nav {
     padding-top: 15px;
     font-size: 20px;
     text-align: center;
-}
+} */
 
-header nav ul li {
+/* header nav ul li {
     display: inline-block;
     padding: 10px 20px;
-}
+} */
 
 a {
     text-decoration: none;
@@ -46,12 +46,12 @@ a:hover {
     color: var(--dark);
 }
 
-h1 {
+/* h1 {
     margin-bottom: 20px;
     font-size: 36px;
     padding: 200px 50px 0px 50px;
     text-align: center;
-}
+} */
 
 p {
     font-size: 16px;
@@ -166,26 +166,26 @@ p {
 
 /* For laptops M displays */
 @media only screen and (max-width: 1290px) {
-    header {
+    /* header {
         justify-content: center;
-    }
+    } */
 
-    header nav ul {
+    /* header nav ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         height: 125px;
         text-align: center;
-    }
+    } */
 
-    header nav ul li {
+    /* header nav ul li {
         padding-bottom: 5px;
-    }
+    } */
 
-    h1 {
+    /* h1 {
         padding: 200px 50px 0px 50px;
         text-align: center;
-    }
+    } */
 
     .wanderlist img,
     .rig-match-me img {
@@ -217,26 +217,26 @@ p {
 
 /* For laptop S displays */
 @media only screen and (max-width: 1024px) {
-    header {
+    /* header {
         justify-content: center;
-    }
+    } */
 
-    header nav ul {
+    /* header nav ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         height: 125px;
         text-align: center;
-    }
+    } */
 
-    header nav ul li {
+    /* header nav ul li {
         padding-bottom: 5px;
-    }
+    } */
 
-    h1 {
+    /* h1 {
         padding: 200px 50px 0px 50px;
         text-align: center;
-    }
+    } */
 
     .wanderlist img,
     .rig-match-me img {
@@ -268,26 +268,26 @@ p {
 
 /* For tablet L displays */
 @media only screen and (max-width: 768px) {
-    header {
+    /* header {
         justify-content: center;
-    }
+    } */
 
-    header nav ul {
+    /* header nav ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         height: 125px;
         text-align: center;
-    }
+    } */
 
-    header nav ul li {
+    /* header nav ul li {
         padding-bottom: 5px;
-    }
+    } */
 
-    h1 {
+    /* h1 {
         padding: 200px 50px 0px 50px;
         text-align: center;
-    }
+    } */
 
     .wanderlist img,
     .rig-match-me img {
@@ -319,26 +319,26 @@ p {
 
 /* For tablet S displays */
 @media only screen and (max-width: 560px) {
-    header {
+    /* header {
         justify-content: center;
-    }
+    } */
 
-    header nav ul {
+    /* header nav ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         height: 125px;
         text-align: center;
-    }
+    } */
 
-    header nav ul li {
+    /* header nav ul li {
         padding-bottom: 5px;
-    }
+    } */
 
-    h1 {
+    /* h1 {
         padding: 200px 50px 0px 50px;
         text-align: center;
-    }
+    } */
 
     .wanderlist img,
     .rig-match-me img {
@@ -370,26 +370,26 @@ p {
 
 /* For mobile L displays */
 @media only screen and (max-width: 425px) and (orientation: portrait) {
-    header {
+    /* header {
         justify-content: center;
-    }
+    } */
 
-    header nav ul {
+    /* header nav ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         height: 125px;
-    }
+    } */
 
-    header nav ul li {
+    /* header nav ul li {
         padding-bottom: 5px;
         text-align: center;
-    }
+    } */
 
-    h1 {
+    /* h1 {
         padding: 200px 50px 0px 50px;
         text-align: center;
-    }
+    } */
 
     .wanderlist img,
     .rig-match-me img {
@@ -421,26 +421,26 @@ p {
 
 /* For mobile M displays */
 @media only screen and (max-width: 375px) and (orientation: portrait) {
-    header {
+    /* header {
         justify-content: center;
-    }
+    } */
 
-    header nav ul {
+    /* header nav ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         height: 125px;
-    }
+    } */
 
-    header nav ul li {
+    /* header nav ul li {
         padding-bottom: 5px;
         text-align: center;
-    }
+    } */
 
-    h1 {
+    /* h1 {
         padding: 200px 50px 0px 50px;
         text-align: center;
-    }
+    } */
 
     .wanderlist img,
     .rig-match-me img {
