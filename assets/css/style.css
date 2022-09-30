@@ -15,27 +15,6 @@ body {
     height: 100%;
 }
 
-/* Index is set to 1 so it nothing falls on top of header when you scroll */
-/* header {
-    background-color: var(--dark);
-    color: var(--heart2);
-    padding: 15px;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-} */
-
-/* header nav {
-    padding-top: 15px;
-    font-size: 20px;
-    text-align: center;
-} */
-
-/* header nav ul li {
-    display: inline-block;
-    padding: 10px 20px;
-} */
-
 a {
     text-decoration: none;
     color: var(--light);
@@ -46,25 +25,23 @@ a:hover {
     color: var(--dark);
 }
 
-/* h1 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    padding: 200px 50px 0px 50px;
-    text-align: center;
-} */
-
 p {
     font-size: 16px;
     padding: 25px 50px 0px 50px;
 }
 
-.me {
+.about-me {
     display: flex;
     justify-content: center;
 }
 
 .about-me img {
     height: 150px;
+}
+
+.school {
+    width: 80px;
+    height: 80px;
 }
 
 .row {
@@ -85,12 +62,12 @@ p {
 .card-header {
     position: relative;
     margin: -3rem 1rem 2rem 1rem;
-    padding: 0.5rem 1rem;
-    background-color: var(--heart2);
-    color: var(--dark);
-    border: 3px solid var(--light);
-    border-radius: 25px;
-    text-align: center;
+    /* padding: 0.5rem 1rem; */
+    /* background-color: var(--heart2);
+    color: var(--dark); */
+    /* border: 3px solid var(--light);
+    border-radius: 25px; */
+    /* text-align: center; */
 }
 
 .code-refractor,
@@ -162,26 +139,6 @@ p {
 
 /* For laptops M displays */
 @media only screen and (max-width: 1290px) {
-    /* header {
-        justify-content: center;
-    } */
-
-    /* header nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 125px;
-        text-align: center;
-    } */
-
-    /* header nav ul li {
-        padding-bottom: 5px;
-    } */
-
-    /* h1 {
-        padding: 200px 50px 0px 50px;
-        text-align: center;
-    } */
 
     .wanderlist img,
     .rig-match-me img {
@@ -213,26 +170,6 @@ p {
 
 /* For laptop S displays */
 @media only screen and (max-width: 1024px) {
-    /* header {
-        justify-content: center;
-    } */
-
-    /* header nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 125px;
-        text-align: center;
-    } */
-
-    /* header nav ul li {
-        padding-bottom: 5px;
-    } */
-
-    /* h1 {
-        padding: 200px 50px 0px 50px;
-        text-align: center;
-    } */
 
     .wanderlist img,
     .rig-match-me img {
@@ -264,26 +201,6 @@ p {
 
 /* For tablet L displays */
 @media only screen and (max-width: 768px) {
-    /* header {
-        justify-content: center;
-    } */
-
-    /* header nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 125px;
-        text-align: center;
-    } */
-
-    /* header nav ul li {
-        padding-bottom: 5px;
-    } */
-
-    /* h1 {
-        padding: 200px 50px 0px 50px;
-        text-align: center;
-    } */
 
     .wanderlist img,
     .rig-match-me img {
@@ -315,26 +232,6 @@ p {
 
 /* For tablet S displays */
 @media only screen and (max-width: 560px) {
-    /* header {
-        justify-content: center;
-    } */
-
-    /* header nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 125px;
-        text-align: center;
-    } */
-
-    /* header nav ul li {
-        padding-bottom: 5px;
-    } */
-
-    /* h1 {
-        padding: 200px 50px 0px 50px;
-        text-align: center;
-    } */
 
     .wanderlist img,
     .rig-match-me img {
@@ -366,26 +263,6 @@ p {
 
 /* For mobile L displays */
 @media only screen and (max-width: 425px) and (orientation: portrait) {
-    /* header {
-        justify-content: center;
-    } */
-
-    /* header nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 125px;
-    } */
-
-    /* header nav ul li {
-        padding-bottom: 5px;
-        text-align: center;
-    } */
-
-    /* h1 {
-        padding: 200px 50px 0px 50px;
-        text-align: center;
-    } */
 
     .wanderlist img,
     .rig-match-me img {
@@ -417,26 +294,6 @@ p {
 
 /* For mobile M displays */
 @media only screen and (max-width: 375px) and (orientation: portrait) {
-    /* header {
-        justify-content: center;
-    } */
-
-    /* header nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 125px;
-    } */
-
-    /* header nav ul li {
-        padding-bottom: 5px;
-        text-align: center;
-    } */
-
-    /* h1 {
-        padding: 200px 50px 0px 50px;
-        text-align: center;
-    } */
 
     .wanderlist img,
     .rig-match-me img {

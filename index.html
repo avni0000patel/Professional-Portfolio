@@ -37,57 +37,100 @@
     </header>
 
     <main>
-        <section id="about-me" class="about-me">
+        <section>
             <div>
-                <h1 class="text-center">About Me ~ Avni Patel</h1>
                 <div class="modal-footer"></div>
+                <h1 class="text-center">Hello, I'm Avni Patel!</h1>
             </div>
-            <div class="me">
+            <div class="about-me">
                 <!-- My avatar -->
                 <!-- Need ./ in src link for images to show on GitHub -->
                 <img src="./assets/images/profilePicture.jpg" class="rounded-circle img-thumbnail" alt="Avni Patel" />
             </div>
-            <p class="bio header font-weight-bold">Bio:</p>
-            <p>
-                Hello! Welcome to my story as a full stack web developer! My name is Avni Patel and I am
-                trained in front-end and back-end web development at University of Pennsylvania. I have a passion for
-                solving puzzles and solving intriguing problems that others haven't solved yet. My motivation is my
-                desire to transition
-                to a field that provides job satisfaction from having the flexibility to be creative, seeing the result
-                from start to end, and the wide range of opportunities in this field. My goal is to continuously learn.
-                There is always something to learn and through my achievements, the opportunity to boost my career
-                prospects is available. My expertise includes Javascript, Node, SQL, MongoDB, and React.
-            </p>
+            <div class="bio">
+                <p class="bio header font-weight-bold">Bio:</p>
+                <div class="container">
+                    <div class="row justify-content-around">
+                        <div class="col-12">
+                            <p>
+                                Welcome to my story as a full stack web developer! I am
+                                trained in front-end and back-end web development at University of Pennsylvania. I have
+                                a
+                                passion for
+                                solving puzzles and solving intriguing problems that others haven't solved yet. My
+                                motivation is
+                                my
+                                desire to transition
+                                to a field that provides job satisfaction from having the flexibility to be creative,
+                                seeing
+                                the
+                                result
+                                from start to end, and the wide range of opportunities in this field. My goal is to
+                                continuously
+                                learn.
+                                There is always something to learn and through my achievements, the opportunity to boost
+                                my
+                                career
+                                prospects is available. My expertise includes Javascript, Node, SQL, MongoDB, and React.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="education">
                 <p class="education header font-weight-bold">Education:</p>
-                <p>
-                    University of Pennsylvania
-                    <br />
-                    Full Stack Web Development
-                </p>
-                <p>
-                    Siena College
-                    <br />
-                    Bachelor of Science in Finance, Minor in Mathematics
-                </p>
+                <div class="container">
+                    <div class="row justify-content-around">
+                        <div class="col-12 col-md-8">
+                            <p>
+                                University of Pennsylvania
+                                <br />
+                                Full Stack Web Development
+                            </p>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./assets/images/University-of-Pennsylvania-shield-symbol.png" class="school"
+                                alt="University of Pennnsylvania" />
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="col-12 col-md-8">
+                            <p>
+                                Siena College
+                                <br />
+                                Bachelor of Science in Finance, Minor in Mathematics
+                            </p>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <img src="./assets/images/sienacollege.png" class="school" alt="Siena College" />
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="contact">
                 <p class="contact font-weight-bold">Contact Info:</p>
-                <p>
-                    Feel free to reach out to me via email: avni0000patel@gmail.com
-                </p>
+                <div class="container">
+                    <div class="row justify-content-around">
+                        <div class="col-12">
+                            <p>
+                                Feel free to reach out to me via email: avni0000patel@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="work" class="work">
             <div>
-                <h1 class="text-center">Work</h1>
                 <div class="modal-footer"></div>
+                <h1 class="text-center">Work</h1>
             </div>
             <div class="row justify-center">
                 <div class="card-column">
                     <div class="code-refractor">
-                        <h2 class="card-header">Code Refractor</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">
+                            Code Refractor</h2>
                         <p class="description text-center">
                             Description: In this project code has been refactored to meet accessibility standards.
                         </p>
@@ -101,7 +144,8 @@
                 </div>
                 <div class="card-column">
                     <div class="professional-portfolio">
-                        <h2 class="card-header">Professional Portfolio</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">Professional
+                            Portfolio</h2>
                         <p class="description text-center">
                             Description: In this project my professional portfolio has been created to show my skills
                             and talents.
@@ -116,7 +160,8 @@
                 </div>
                 <div class="card-column">
                     <div class="password-generator">
-                        <h2 class="card-header">Password Generator</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">Password
+                            Generator</h2>
                         <p class="description text-center">
                             Description: In this project I have created a password generator to improve security and
                             protect secure data.
@@ -131,7 +176,8 @@
                 </div>
                 <div class="card-column">
                     <div class="code-quiz">
-                        <h2 class="card-header">Code Quiz</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">Code Quiz
+                        </h2>
                         <p class="description text-center">
                             Description: In this project I have created a code quiz because coding assessments are an
                             important part of the interview process for developers.
@@ -146,7 +192,8 @@
                 </div>
                 <div class="card-column">
                     <div class="work-day-scheduler">
-                        <h2 class="card-header">Work Day Scheduler</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">Work Day
+                            Scheduler</h2>
                         <p class="description text-center">
                             Description: In this project I have created a work day scheduler so I can manage my time
                             effectively.
@@ -161,7 +208,8 @@
                 </div>
                 <div class="card-column">
                     <div class="weather-dashboard">
-                        <h2 class="card-header">Weather Dashboard</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">Weather
+                            Dashboard</h2>
                         <p class="description text-center">
                             Description: In this project I have created a weather dashboard that uses the OpenWeather
                             API to show the forecast for different cities.
@@ -176,7 +224,8 @@
                 </div>
                 <div class="card-column">
                     <div class="wanderlist">
-                        <h2 class="card-header">Wanderlist</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">Wanderlist
+                        </h2>
                         <p class="description text-center">
                             Description: In this project we have created a website that helps travelers find a safe
                             country to visit and find information about prerequisites for travelling to that country.
@@ -192,7 +241,8 @@
                 </div>
                 <div class="card-column">
                     <div class="professional-readme-generator">
-                        <h2 class="card-header">Professional README Generator</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">Professional
+                            README Generator</h2>
                         <p class="description text-center">
                             Description: In this project I have created an application using node that creates a
                             professional README for a user's project based on the user's input.
@@ -208,7 +258,8 @@
                 </div>
                 <div class="card-column">
                     <div class="team-profile-generator">
-                        <h2 class="card-header">Team Profile Generator</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">Team Profile
+                            Generator</h2>
                         <p class="description text-center">
                             Description: In this project I have created a team profile generator that displays summaries
                             for each person.
@@ -223,7 +274,8 @@
                 </div>
                 <div class="card-column">
                     <div class="note-taker">
-                        <h2 class="card-header">Note Taker</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">Note Taker
+                        </h2>
                         <p class="description text-center">
                             Description: In this project I have created a Note Taker application to create and store
                             notes.
@@ -238,7 +290,8 @@
                 </div>
                 <div class="card-column">
                     <div class="employee-tracker">
-                        <h2 class="card-header">Employee Tracker</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">Employee
+                            Tracker</h2>
                         <p class="description text-center">
                             Description: In this project I have created an application that allows you to view and
                             manage the departments, roles, and employees in a company.
@@ -253,7 +306,8 @@
                 </div>
                 <div class="card-column">
                     <div class="e-commerce-back-end">
-                        <h2 class="card-header">E-commerce Back End</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">E-commerce
+                            Back End</h2>
                         <p class="description text-center">
                             Description: In this project I have built the back end for an e-commerce site.
                         </p>
@@ -267,7 +321,8 @@
                 </div>
                 <div class="card-column">
                     <div class="tech-blog">
-                        <h2 class="card-header">Tech Blog</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">Tech Blog
+                        </h2>
                         <p class="description text-center">
                             Description: In this project I have created a tech blog that is a CMS-style blog site
                             similar to a Wordpress site.
@@ -283,7 +338,9 @@
                 </div>
                 <div class="card-column">
                     <div class="rig-match-me">
-                        <h2 class="card-header">Rig Match Me</h2>
+                        <h2 class="card-header text-center bg-dark text-light border border-5 border-light">
+                            Rig Match Me
+                        </h2>
                         <p class="description text-center">
                             Description: In this project we have created an application that provides a guided tour of
                             instruments to help steer the user towards getting properly setup for the genre of music
@@ -303,8 +360,8 @@
 
         <section id="contact-me" class="contact-me">
             <div>
-                <h1 class="text-center">Contact Me</h1>
                 <div class="modal-footer"></div>
+                <h1 class="text-center">Contact Me</h1>
             </div>
             <nav>
                 <ul>
