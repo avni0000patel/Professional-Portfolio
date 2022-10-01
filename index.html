@@ -8,6 +8,7 @@
     <!-- Browser's title -->
     <title>My Portfolio!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- style.css overrides reset.css when it is put second-->
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -127,267 +128,517 @@
                 <h1 class="text-center">Work</h1>
             </div>
             <div class="row justify-center justify-content-around">
+                <!-- Professional portfolio -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="professional-portfolio">
                         <h4 style="height: 100px;"
                             class="card-header text-center bg-dark text-light border border-5 border-light">
-                            Professional Portfolio</h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project my professional
-                            portfolio has been created to show my skills
-                            and talents.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> HTML, CSS
-                        </p>
-                        <a class="project" href="https://avni0000patel.github.io/Professional-Portfolio/">
-                            <img class="img-fluid col-12" src="./assets/images/portfolio.png"
-                                alt="Professional Portfolio" />
-                        </a>
+                            Professional Portfolio
+                        </h4>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project my professional
+                                    portfolio has been created to show my skills
+                                    and talents.
+                                    <br />
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> HTML, CSS
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b">
+                                <a class="project" href="https://avni0000patel.github.io/Professional-Portfolio/">
+                                    <img class="img-fluid col-12" src="./assets/images/portfolio.png"
+                                        alt="Professional Portfolio" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Wanderlist -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="wanderlist">
                         <h4 style="height: 100px;"
-                            class="card-header text-center bg-dark text-light border border-5 border-light">Wanderlist
+                            class="card-header text-center bg-dark text-light border border-5 border-light">
+                            Wanderlist
                         </h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project we have created a
-                            website that helps travelers find a safe
-                            country to visit and find information about prerequisites for travelling to that country.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bulma, Javascript, jQuery,
-                            jQuery UI, Travel Briefing API, Google
-                            API, Google fonts
-                        </p>
-                        <a class="project" href="https://kayhancock.github.io/Wanderlist/">
-                            <img class="img-fluid col-12" src="./assets/images/wanderlist.png" alt="Wanderlist" />
-                        </a>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a2" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b2" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a2">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project we have created
+                                    a website that helps travelers find a safe country to visit and find information
+                                    about prerequisites for travelling to that country.
+                                    <br />
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bulma, Javascript,
+                                    jQuery,
+                                    jQuery UI, Travel Briefing API, Google
+                                    API, Google fonts
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b2">
+                                <a class="project" href="https://kayhancock.github.io/Wanderlist/">
+                                    <img class="img-fluid col-12" src="./assets/images/wanderlist.png"
+                                        alt="Wanderlist" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Rig Match Me -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="rig-match-me">
                         <h4 style="height: 100px;"
                             class="card-header text-center bg-dark text-light border border-5 border-light">
                             Rig Match Me
                         </h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project we have created an
-                            application that provides a guided tour of
-                            instruments to help steer the user towards getting properly setup for the genre of music
-                            they are interested in playing.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap, Javascript, Node
-                            JS, Express, Express-handlebars, MySQL,
-                            Sequelize, Dotenv, Bycrypt, Connect-session-sequelize, Nodemailer
-                        </p>
-                        <a class="project" href="https://evening-fjord-11816.herokuapp.com/">
-                            <img class="img-fluid col-12" src="./assets/images/rig-match-me-screenshot.png"
-                                alt="Rig Match Me" />
-                        </a>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a3" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b3" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a3">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project we have created
+                                    an application that provides a guided tour of instruments to help steer the user
+                                    towards getting properly setup for the genre of music they are interested in
+                                    playing.
+                                    <br />
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap,
+                                    Javascript, Node
+                                    JS, Express, Express-handlebars, MySQL,
+                                    Sequelize, Dotenv, Bycrypt, Connect-session-sequelize, Nodemailer
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b3">
+                                <a class="project" href="https://evening-fjord-11816.herokuapp.com/">
+                                    <img class="img-fluid col-12" src="./assets/images/rig-match-me-screenshot.png"
+                                        alt="Rig Match Me" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Code Refractor -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="code-refractor">
                         <h4 style="height: 100px;"
                             class="card-header text-center bg-dark text-light border border-5 border-light">
                             Code Refractor
                         </h4>
-                        <p class="description text-center text-light ">
-                            <span style="font-weight:bold;">Description: </span> In this project code has been
-                            refactored to meet accessibility standards.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> HTML, CSS
-                        </p>
-                        <a class="project hover" href="https://avni0000patel.github.io/Code-Refractor/">
-                            <img class="img-fluid col-12" src="./assets/images/code-refractor-area.png"
-                                alt="Horiseon Website" />
-                        </a>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a4" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b4" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a4">
+                                <p class="description text-center text-light ">
+                                    <span style="font-weight:bold;">Description: </span> In this project code has been
+                                    refactored to meet accessibility standards.
+                                    <br />
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> HTML, CSS
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b4">
+                                <a class="project hover" href="https://avni0000patel.github.io/Code-Refractor/">
+                                    <img class="img-fluid col-12" src="./assets/images/code-refractor-area.png"
+                                        alt="Horiseon Website" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Password Generator -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="password-generator">
                         <h4 style="height: 100px;"
-                            class="card-header text-center bg-dark text-light border border-5 border-light">Password
-                            Generator</h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project I have created a
-                            password generator to improve security and
-                            protect secure data.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Javascript
-                        </p>
-                        <a class="project" href="https://avni0000patel.github.io/Password-Generator/">
-                            <img class="img-fluid col-12" src="./assets/images/password-generator-area.png"
-                                alt="Password Generator" />
-                        </a>
+                            class="card-header text-center bg-dark text-light border border-5 border-light">
+                            Password Generator
+                        </h4>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a5" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b5" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a5">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project I have created
+                                    a password generator to improve security and protect secure data.
+                                    <br />
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Javascript
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b5">
+                                <a class="project" href="https://avni0000patel.github.io/Password-Generator/">
+                                    <img class="img-fluid col-12" src="./assets/images/password-generator-area.png"
+                                        alt="Password Generator" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Code Quiz -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="code-quiz">
                         <h4 style="height: 100px;"
-                            class="card-header text-center bg-dark text-light border border-5 border-light">Code Quiz
+                            class="card-header text-center bg-dark text-light border border-5 border-light">
+                            Code Quiz
                         </h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project I have created a code
-                            quiz because coding assessments are an
-                            important part of the interview process for developers.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Javascript
-                        </p>
-                        <a class="project" href="https://avni0000patel.github.io/Code-Quiz/">
-                            <img class="img-fluid col-12" src="./assets/images/code-quiz-area.png" alt="Code Quiz" />
-                        </a>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a6" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b6" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a6">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project I have created
+                                    a code
+                                    quiz because coding assessments are an
+                                    important part of the interview process for developers.
+                                    <br />
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Javascript
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b6">
+                                <a class="project" href="https://avni0000patel.github.io/Code-Quiz/">
+                                    <img class="img-fluid col-12" src="./assets/images/code-quiz-area.png"
+                                        alt="Code Quiz" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Work Day Scheduler -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="work-day-scheduler">
                         <h4 style="height: 100px;"
-                            class="card-header text-center bg-dark text-light border border-5 border-light">Work Day
-                            Scheduler</h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project I have created a work
-                            day scheduler so I can manage my time
-                            effectively.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap, Javascript,
-                            jQuery, jQuery UI
-                        </p>
-                        <a class="project" href="https://avni0000patel.github.io/Work-Day-Scheduler/">
-                            <img class="img-fluid col-12" src="./assets/images/work-day-scheduler-area.png"
-                                alt="Work Day Scheduler" />
-                        </a>
+                            class="card-header text-center bg-dark text-light border border-5 border-light">
+                            Work Day Scheduler
+                        </h4>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a7" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b7" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a7">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project I have created
+                                    a work
+                                    day scheduler so I can manage my time
+                                    effectively.
+                                    <br />
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap,
+                                    Javascript,
+                                    jQuery, jQuery UI
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b7">
+                                <a class="project" href="https://avni0000patel.github.io/Work-Day-Scheduler/">
+                                    <img class="img-fluid col-12" src="./assets/images/work-day-scheduler-area.png"
+                                        alt="Work Day Scheduler" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Weather Dashboard -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="weather-dashboard">
                         <h4 style="height: 100px;"
-                            class="card-header text-center bg-dark text-light border border-5 border-light">Weather
-                            Dashboard</h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project I have created a
-                            weather dashboard that uses the OpenWeather
-                            API to show the forecast for different cities.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap, Javascript,
-                            jQuery, jQuery UI, OpenWeatherMap API
-                        </p>
-                        <a class="project" href="https://avni0000patel.github.io/Weather-Dashboard/">
-                            <img class="img-fluid col-12" src="./assets/images/weather-dashboard-area.png"
-                                alt="Weather Dashboard" />
-                        </a>
+                            class="card-header text-center bg-dark text-light border border-5 border-light">
+                            Weather Dashboard
+                        </h4>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a8" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b8" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a8">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project I have created
+                                    a
+                                    weather dashboard that uses the OpenWeather
+                                    API to show the forecast for different cities.
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap,
+                                    Javascript,
+                                    jQuery, jQuery UI, OpenWeatherMap API
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b8">
+                                <a class="project" href="https://avni0000patel.github.io/Weather-Dashboard/">
+                                    <img class="img-fluid col-12" src="./assets/images/weather-dashboard-area.png"
+                                        alt="Weather Dashboard" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Professional README Generator -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="professional-readme-generator">
                         <h4 style="height: 100px;"
-                            class="card-header text-center bg-dark text-light border border-5 border-light">Professional
-                            README Generator</h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project I have created an
-                            application using node that creates a
-                            professional README for a user's project based on the user's input.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> Javascript, Node JS, Inquirer
-                        </p>
-                        <a class="project" href="https://github.com/avni0000patel/Professional-README-Generator">
-                            <img class="img-fluid col-12"
-                                src="./assets\images\professional-readme-generator-picture.png"
-                                alt="Professional README Generator" />
-                        </a>
+                            class="card-header text-center bg-dark text-light border border-5 border-light">
+                            Professional README Generator
+                        </h4>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a9" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b9" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a9">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project I have created
+                                    an
+                                    application using node that creates a
+                                    professional README for a user's project based on the user's input.
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> Javascript, Node JS, Inquirer
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b9">
+                                <a class="project"
+                                    href="https://github.com/avni0000patel/Professional-README-Generator">
+                                    <img class="img-fluid col-12"
+                                        src="./assets\images\professional-readme-generator-picture.png"
+                                        alt="Professional README Generator" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Team Profile Generator -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-lightn">
                     <div class="team-profile-generator">
                         <h4 style="height: 100px;"
-                            class="card-header text-center bg-dark text-light border border-5 border-light">Team Profile
-                            Generator</h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project I have created a team
-                            profile generator that displays summaries
-                            for each person.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap, Javascript, Node
-                            JS, Inquirer, Jest
-                        </p>
-                        <a class="project" href="https://github.com/avni0000patel/Team-Profile-Generator">
-                            <img class="img-fluid col-12" src="./assets/images/teamprofilegenerator.png"
-                                alt="Team Profile Generator" />
-                        </a>
+                            class="card-header text-center bg-dark text-light border border-5 border-light">Team
+                            Profile Generator
+                        </h4>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a10" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b10" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a10">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project I have created
+                                    a team
+                                    profile generator that displays summaries
+                                    for each person.
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap,
+                                    Javascript, Node
+                                    JS, Inquirer, Jest
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b10">
+                                <a class="project" href="https://github.com/avni0000patel/Team-Profile-Generator">
+                                    <img class="img-fluid col-12" src="./assets/images/teamprofilegenerator.png"
+                                        alt="Team Profile Generator" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Note Taker -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="note-taker">
                         <h4 style="height: 100px;"
-                            class="card-header text-center bg-dark text-light border border-5 border-light">Note Taker
+                            class="card-header text-center bg-dark text-light border border-5 border-light">
+                            Note Taker
                         </h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project I have created a Note
-                            Taker application to create and store
-                            notes.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap, Javascript, Node
-                            JS, Inquirer, Express, UUID
-                        </p>
-                        <a class="project" href="https://fathomless-dawn-16383.herokuapp.com/">
-                            <img class="img-fluid col-12" src="./assets\images\note-taker.png" alt="Note Taker" />
-                        </a>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a11" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b11" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a11">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project I have created
+                                    a Note
+                                    Taker application to create and store
+                                    notes.
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap,
+                                    Javascript, Node
+                                    JS, Inquirer, Express, UUID
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b11">
+                                <a class="project" href="https://fathomless-dawn-16383.herokuapp.com/">
+                                    <img class="img-fluid col-12" src="./assets\images\note-taker.png"
+                                        alt="Note Taker" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Employee Tracker -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="employee-tracker">
                         <h4 style="height: 100px;"
-                            class="card-header text-center bg-dark text-light border border-5 border-light">Employee
-                            Tracker</h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project I have created an
-                            application that allows you to view and
-                            manage the departments, roles, and employees in a company.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> Javascript, Node JS, Inquirer, Console
-                            Table, MySQL
-                        </p>
-                        <a class="project" href="https://github.com/avni0000patel/Employee-Tracker">
-                            <img class="img-fluid col-12" src="./assets\images\employee-tracker.png"
-                                alt="Employee Tracker" />
-                        </a>
+                            class="card-header text-center bg-dark text-light border border-5 border-light">
+                            Employee Tracker</h4>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a12" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b12" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a12">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project I have created
+                                    an
+                                    application that allows you to view and
+                                    manage the departments, roles, and employees in a company.
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> Javascript, Node JS, Inquirer,
+                                    Console
+                                    Table, MySQL
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b12">
+                                <a class="project" href="https://github.com/avni0000patel/Employee-Tracker">
+                                    <img class="img-fluid col-12" src="./assets\images\employee-tracker.png"
+                                        alt="Employee Tracker" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- E-Commerce Back End -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="e-commerce-back-end">
                         <h4 style="height: 100px;"
-                            class="card-header text-center bg-dark text-light border border-5 border-light">E-commerce
-                            Back End</h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project I have built the back
-                            end for an e-commerce site.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> Javascript, Node JS, Express, MySQL,
-                            Sequelize, Dotenv
-                        </p>
-                        <a class="project" href="https://github.com/avni0000patel/E-commerce-Back-End">
-                            <img class="img-fluid col-12" src="./assets/images/e-commerce-back-end-screenshot.png"
-                                alt="E-commerce Back End" />
-                        </a>
+                            class="card-header text-center bg-dark text-light border border-5 border-light">
+                            E-commerce Back End
+                        </h4>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a13" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b13" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a13">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project I have built
+                                    the back
+                                    end for an e-commerce site.
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> Javascript, Node JS, Express,
+                                    MySQL,
+                                    Sequelize, Dotenv
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b13">
+                                <a class="project" href="https://github.com/avni0000patel/E-commerce-Back-End">
+                                    <img class="img-fluid col-12"
+                                        src="./assets/images/e-commerce-back-end-screenshot.png"
+                                        alt="E-commerce Back End" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- Tech Blog -->
                 <div class="card col-12 col-md-6 col-lg-4 border border-5 border-light">
                     <div class="tech-blog">
                         <h4 style="height: 100px;"
-                            class="card-header text-center bg-dark text-light border border-5 border-light">Tech Blog
+                            class="card-header text-center bg-dark text-light border border-5 border-light">
+                            Tech Blog
                         </h4>
-                        <p class="description text-center text-light">
-                            <span style="font-weight:bold;">Description: </span> In this project I have created a tech
-                            blog that is a CMS-style blog site
-                            similar to a Wordpress site.
-                            <br />
-                            <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap, Javascript, Node
-                            JS, Express, Express-handlebars, MySQL,
-                            Sequelize, Dotenv, Bycrypt, Connect-session-sequelize
-                        </p>
-                        <a class="project" href="https://boiling-tor-98375.herokuapp.com/">
-                            <img class="img-fluid col-12" src="./assets/images/tech-blog-screenshot.png"
-                                alt="Tech Blog" />
-                        </a>
+
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item px-4"><a href="#a14" data-toggle="tab">Description</a></li>
+                                <li class="nav-item px-4"><a href="#b14" data-toggle="tab">Project</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a14">
+                                <p class="description text-center text-light">
+                                    <span style="font-weight:bold;">Description: </span> In this project I have created
+                                    a tech
+                                    blog that is a CMS-style blog site
+                                    similar to a Wordpress site.
+                                    <br />
+                                    <span style="font-weight:bold;">Technologies: </span> HTML, CSS, Bootstrap,
+                                    Javascript, Node
+                                    JS, Express, Express-handlebars, MySQL,
+                                    Sequelize, Dotenv, Bycrypt, Connect-session-sequelize
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="b14">
+                                <a class="project" href="https://boiling-tor-98375.herokuapp.com/">
+                                    <img class="img-fluid col-12" src="./assets/images/tech-blog-screenshot.png"
+                                        alt="Tech Blog" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -415,6 +666,13 @@
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
 
 </body>
 
