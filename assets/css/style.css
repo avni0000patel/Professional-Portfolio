@@ -21,8 +21,8 @@ a {
 }
 
 a:hover {
-    background-color: var(--light);
-    color: var(--dark);
+    background-color: transparent;
+    color: lightgrey;
 }
 
 p {
