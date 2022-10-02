@@ -10,5 +10,9 @@ HTML - creates the structure of Web pages
 CSS - creates the presentation of Web pages
 
 Bootstrap - the CSS framework
+
+jQuery - framework built with JavaScript to help add extra functionalities
+
+jQuery UI - set of user interface interactions, effects, widgets, and themes on top of the jQuery JavaScript Library
 ## Screenshot
 ![avni0000patel github io_Professional-Portfolio_](https://user-images.githubusercontent.com/104175474/193436264-0f8b5b17-55b9-4a0e-87aa-df5a7d0aa5b9.png)
