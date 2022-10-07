@@ -40,6 +40,12 @@ p {
     height: 150px;
 }
 
+.skill img {
+    width: 80px;
+    height: 80px;
+    color: green;
+}
+
 .project img {
     height: 300px;
     width: 300px;
