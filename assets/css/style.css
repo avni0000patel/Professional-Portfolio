@@ -43,7 +43,7 @@ p {
 .skill img {
     width: 80px;
     height: 80px;
-    color: green;
+    filter: invert(99%) sepia(99%) saturate(2%) hue-rotate(296deg) brightness(108%) contrast(101%);
 }
 
 .project img {
