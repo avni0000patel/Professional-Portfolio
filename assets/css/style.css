@@ -1,4 +1,11 @@
 /* Not all colors used */
+body,
+html {
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 :root {
     --light: #ffffff;
     --dark: #000000;
@@ -72,4 +79,25 @@ p {
 
 .contact i {
     font-size: 24px;
+}
+
+#bg-img-1 {
+    /* The image used */
+    /* background-image: url("../images/bg.jfif"); */
+
+    /* Full height */
+    height: 100vh;
+    background: black;
+
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: top 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
